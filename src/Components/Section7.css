@@ -1,0 +1,248 @@
+/* Section7 */
+
+.Profile-Section7 {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.Profile-Section7-Top {
+    display: flex;
+}
+
+.Profile-Section7-Top-Heading {
+    font-size: 50px;
+    font-weight: 650;
+    letter-spacing: -2px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.Profile-Section7-Button>button {
+    position: absolute;
+    right: 0;
+    margin-right: 120px;
+    font-size: 22px;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 10px 0px rgb(43, 63, 38);
+}
+
+.button7-image {
+    margin-right: 4px;
+    width: 18px;
+    float: right;
+    margin-top: 3px;
+}
+
+.Profile-Section7-Main2 {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 5px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 40px;
+    width: auto;
+    /* border: none; */
+}
+
+.Profile-Section7-Main>:last-of-type{
+    border: none;
+}
+
+.Profile-Section7-Buttons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin: 40px;
+    margin-right: 110px;
+    gap: 20px;
+}
+
+.Profile-Section7-Buttons>button:first-of-type {
+    border-radius: 20px;
+    background-color: rgb(180, 34, 34);
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 10px 0px rgb(43, 63, 38);
+}
+
+.Profile-Section7-Buttons>button:last-of-type {
+    border-radius: 20px;
+    background-color: rgb(44, 145, 21);
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 10px 0px rgb(43, 63, 38);
+}
+
+.Profile-Section7-Sildes-Heading {
+    display: flex;
+    gap: 30px;
+
+}
+
+.Profile-Section7-Sildes-Heading>img {
+    width: 140px;
+    height: 120px;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.Profile-Section7-Sildes-Heading1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: -2px;
+    line-height: 40px;
+}
+
+.Profile-Section7-Sildes-Heading1>span {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button7-remove-image {
+    margin-right: 4px;
+    width: 10px;
+    margin-left: 12px;
+    /* float: right; */
+    margin-top: 6px;
+}
+
+.button7-continue-image {
+    margin-right: 2px;
+    width: 10px;
+    margin-left: 12px;
+    /* float: right; */
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 1300px){
+    .Profile-Section7-Buttons {
+        display: grid;
+        margin-top: 15px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .Profile-Section7-Main2 {
+        display: grid;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    .Profile-Section7-Buttons {
+        position: relative;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .Profile-Section7-Buttons>button {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+    .Profile-Section7-Main2 {
+        width: 500px;
+    }
+
+    .Profile-Section7-Top {
+        display: grid;
+    }
+
+    .Profile-Section7-Button>button {
+        position: relative;
+        margin-left: 90px;
+        font-size: 20px;
+        width: 110px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .Profile-Section7-Sildes-Heading>img {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .Profile-Section7-Sildes-Heading1 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 20px;
+        letter-spacing: -2px;
+        line-height: 40px;
+    }
+    
+    .Profile-Section7-Sildes-Heading1>span {
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .Profile-Section7-Main2 {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    .Profile-Section7-Top-Heading {
+        font-size: 40px;
+        font-weight: 650;
+        letter-spacing: -2px;
+        line-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Profile-Section7-Main2 {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .Profile-Section7-Buttons {
+        margin-right: auto;
+    }
+
+    .Profile-Section7-Buttons>button {
+     font-size: 20px;
+     width: auto;
+    }
+
+    .Profile-Section7-Sildes-Heading>img {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .Profile-Section7-Sildes-Heading1 {
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 20px;
+        letter-spacing: -2px;
+        line-height: 40px;
+    }
+    
+    .Profile-Section7-Sildes-Heading1>span {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 40px;
+    }
+
+}

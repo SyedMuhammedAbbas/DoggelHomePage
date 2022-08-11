@@ -1,0 +1,312 @@
+.Profile-Footer-Content {
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.Footer-Mobile-App{
+    grid-area: Footer-Mobile-App;
+}
+
+.Footer-Logo{
+    grid-area: Footer-Logo;
+}
+
+.Profile-Footer-Logo-Image {
+    padding-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: grid;
+}
+
+.Profile-Footer-Logo-Image>a:first-of-type>img {
+    width: 250px;
+}
+
+.Profile-Footer-Logo-Image>a:last-of-type>img {
+    width: 220px;
+    margin-left: 15px;
+}
+
+.Profile-Footer-Content-Para {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.Profile-Footer-Content-Para>span {
+    font-size: 40px;
+}
+
+.Profile-Footer-Child {
+    display: flex;
+}
+
+.Profile-Footer-Child1 {
+    position: absolute;
+    right: 5%;
+    margin-top: 50px;
+}
+
+.Profile-Footer-Child1-Image>img {
+    width: 150px;
+    padding-left: 20px;
+}
+
+.Profile-Footer-Child1-Heading {
+    color: gray;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+.Profile-Footer-copyright {
+    display: flex;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.Profile-Footer-copyright-ul {
+    display: flex;
+    gap: 20px;
+}
+
+.Profile-Footer-copyright-ul>li {
+    display: flex;
+    text-decoration: none;
+}
+
+.Profile-Footer-All-reserved {
+    position: absolute;
+    right: 2%;
+    margin-top: 27px;
+}
+
+@media only screen and (max-width: 1500px){
+    .Profile-Footer-copyright-ul>li {
+        font-size: 2vw;
+    }
+    
+    .Profile-Footer-All-reserved {
+        font-size: 2vw;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1400px){
+
+    .Profile-Footer-Logo-Image>a:first-of-type>img {
+        width: 19vw;
+    }
+    
+    .Profile-Footer-Logo-Image>a:last-of-type>img {
+        width: 17vw;
+        margin-left: 10px;
+    }
+    
+    .Profile-Footer-Content-Para {
+        font-size: 2.5vw;
+        margin-top: 50px;
+        font-weight: 600;
+    }
+    
+    .Profile-Footer-Content-Para>span {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .Profile-Footer-Logo-Image>a:first-of-type>img {
+        width: 230px;
+    }
+    
+    .Profile-Footer-Logo-Image>a:last-of-type>img {
+        width: 200px;
+        margin-left: 15px;
+    }
+    
+    .Profile-Footer-Content-Para {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .Profile-Footer-Content-Para>span {
+        font-size: 27px;
+    }
+
+    .Profile-Footer-Content {
+        display: grid;
+        gap: 10px;
+        margin-top: 70px;
+        margin-left: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 750px){
+    .Profile-Footer-copyright {
+        display: grid;
+        justify-items: center;
+    }
+
+    .Profile-Footer-copyright-ul{
+        
+    }
+    .Profile-Footer-copyright-ul>li {
+        font-size: 20px;
+    }
+    
+    .Profile-Footer-All-reserved {
+        font-size: 20px;
+        position: relative;
+        left: 25%;
+        /* justify-self: center; */
+        margin-top: 10px;
+        margin-right: auto;
+    }
+
+    .Profile-Footer-Child {
+        display: grid;
+        grid-template-areas: "Footer-Logo"
+                             "Footer-Mobile-App";
+    }
+    
+    
+
+    .Profile-Footer-Child1 {
+        position: relative;
+        /* align-items: center; */
+        left: 30%;
+        margin-right: auto;
+        padding-right: 0;
+        margin-top: 50px;
+    }
+
+    .Profile-Footer-Child1-Image>img{
+        right: 0;
+    }
+
+    .Profile-Footer-Content-Para {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 3px;
+    }
+
+    .Profile-Footer-Content {
+        display: flex;
+        gap: 0px;
+        margin-top: 70px;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Profile-Footer-Logo-Image {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .Profile-Footer-Content {
+        display: grid;
+    }
+    
+    .Profile-Footer-Logo-Image {
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px; 
+        display: flex;
+    }
+
+    .Profile-Footer-Logo-Image>a:first-of-type>img {
+        width: 230px;
+    }
+    
+    .Profile-Footer-Logo-Image>a:last-of-type>img {
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .Profile-Footer-Content-Para {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 550px){
+    
+    
+    .Profile-Footer-All-reserved {
+        left: 20%;
+    }
+
+    .Profile-Footer-Child1 {
+        left: 25vw;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .Profile-Footer-Logo-Image {
+        padding-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px; 
+        display: flex;
+    }
+
+    .Profile-Footer-Logo-Image>a:first-of-type>img {
+        width: 180px;
+    }
+    
+    .Profile-Footer-Logo-Image>a:last-of-type>img {
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }    
+}
+
+@media only screen and (max-width: 400px){
+    
+    .Profile-Footer-Logo-Image {
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px; 
+        display: flex;
+    }
+
+    .Profile-Footer-Logo-Image>a:first-of-type>img {
+        width: 180px;
+    }
+    
+    .Profile-Footer-Logo-Image>a:last-of-type>img {
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .Profile-Footer-Content-Para {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+    .Profile-Footer-All-reserved {
+        left: 10%;
+    }
+
+    .Profile-Footer-Child1 {
+        left: 20%;
+    }
+}

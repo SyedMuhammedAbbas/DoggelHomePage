@@ -1,0 +1,175 @@
+.Home{
+    overflow: hidden;
+}
+
+.Home-Header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(44, 153, 20);
+}
+
+.Home-Header-Logo{
+    display: flex;
+}
+.Home-Header-Logo>img{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.Home-Header-Heading{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.Home-Header-items{
+    display: flex;
+    gap: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    margin-right: 2.5rem;
+    margin-top: 35px;
+}
+
+.Home-Content{
+    width: 50%;
+}
+.Home-Section{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+span{
+    color: rgb(44, 153, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Home-Section-Content{
+    color: white;
+    text-align: center;
+}
+
+.Home-Section-Para{
+    color: rgb(185, 186, 189);
+    font-size: 20px;
+}
+
+.Home-Section-Heading{
+    font-size: 100px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: -2px;
+}
+
+.Home-Sample-Image{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    object-fit: cover;
+}
+
+.Home-Sample-Image>img{
+    width: 100%;
+    height: 787px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Home-Line{
+    color: white;
+}
+button{
+    font-size: 25px;
+    background-color: black;
+    border: solid white 1px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border: solid black 1px;
+}
+
+.Home-Section-Button{
+    display: flex;
+    justify-content:  center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.Home-Footer{
+    display: flex;
+}
+
+.Home-Footer-mobile-app{
+    display: flex;
+    margin: 20px;
+}
+
+.Home-Footer-mobile-app>img{
+    width: 100px;
+    height: 100px;
+}
+
+.Home-Footer-mobile-app>p{
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.Home-Footer-Logo-Image{
+    position: absolute;
+    right: 55%;
+    margin-top: 10px;
+    display: grid;
+}
+.Home-Footer-Logo-Image>img:first-of-type{
+    width: 180px;
+}
+
+.Home-Footer-Logo-Image>img:last-of-type{
+    width: 160px;
+    margin-left: 10px;
+}
+
+.Home-Footer-copyright{
+    display: flex;
+
+}
+
+.Home-Footer-copyright-ul{
+
+    display: flex;
+    gap: 20px;
+}
+
+.Home-Footer-copyright-ul>li{
+    display: flex;
+    text-decoration: none;
+}
+
+.Home-Footer-All-reserved{
+    position: absolute;
+    right: 51%;
+    margin-top: 16px;
+}

@@ -1,0 +1,150 @@
+.Profile-Section6 {
+    margin-top: 80px;
+    background-color: rgb(44, 153, 20);
+    box-shadow: inset 0px 10px 90px 0px rgba(53, 53, 53, 0.9);
+    padding-bottom: 150px;
+    display: flex;
+}
+
+.Profile-Section6-Text {
+    display: flex;
+}
+
+.Profile-Section6-Text-Heading {
+    font-size: 4.2vw;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: white;
+    padding-left: 90px;
+    margin-top: 80px;
+    line-height: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Profile-Section6-Text-Heading2 {
+    font-size: 3vw;
+    padding-left: 20px;
+    letter-spacing: 0px;
+    line-height: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.Profile-Section6-Button>button {
+    position: absolute;
+    right: 0;
+    margin-right: 6%;
+    margin-top: 380px;
+    font-size: 35px;
+    width: 350px;
+    height: 130px;
+    padding: 5px;
+    border-radius: 1.7rem;
+    background-color: rgb(49, 148, 27);
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 30px 0px rgb(43, 63, 38);
+    /* box-shadow:  inset 0px 0px 0px 0px rgba(46, 100, 25, 0.9);  */
+
+}
+
+.Profile-Section6-Button>button:hover {
+    color: white;
+}
+
+.Profile-Section6-Button>button>span {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1300px){
+
+    .Profile-Section6-Button>button {
+        position: absolute;
+        right: 0;
+        margin-right: 5%;
+        margin-top: 150px;
+        font-size: 28px;
+        width: 250px;
+        height: 130px;
+    
+    }
+
+    .Profile-Section6-Button>button>span {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .Profile-Section6 {
+        margin-top: 80px;
+        background-color: rgb(44, 153, 20);
+        box-shadow: inset 0px 10px 90px 0px rgba(53, 53, 53, 0.9);
+        padding-bottom: 70px;
+        display: grid;
+    }
+
+    .Profile-Section6-Button>button {
+        position: relative;
+        margin-left: 9%;
+        margin-top: 70px;
+        font-size: 28px;
+        width: 270px;
+        height: 130px;
+    
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .Profile-Section6-Text-Heading {
+        font-size: 38px;
+        padding-left: 90px;
+    }
+    
+    .Profile-Section6-Text-Heading2 {
+        font-size: 30x;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .Profile-Section6-Text-Heading {
+        font-size: 38px;
+        padding-left: 40px;
+        word-spacing: -2px;
+        line-height: normal;
+    }
+    
+    .Profile-Section6-Text-Heading2 {
+        font-size: 30x;
+        padding-left: 10px;
+        word-spacing: 0px;
+    }
+
+    .Profile-Section6-Button>button {
+        position: relative;
+        margin-left: 15%;
+        margin-top: 70px;
+        font-size: 26px;
+        width: 250px;
+        height: 110px;
+    
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .Profile-Section6-Text-Heading {
+        font-size: 8vw;
+        padding-left: 40px;
+        word-spacing: -2px;
+        line-height: normal;
+    }
+    
+    .Profile-Section6-Text-Heading2 {
+        font-size: 6vw;
+        padding-left: 10px;
+        word-spacing: 0px;
+        line-height: normal;
+    }
+}

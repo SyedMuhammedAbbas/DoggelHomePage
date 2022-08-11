@@ -1,0 +1,379 @@
+/* Section3 */
+.Profile-Section3 {
+    display: grid;
+    margin-bottom: 700px;
+}
+
+.Profile-Section3-Button {
+    position: center;
+    /* border: rgb(116, 116, 116) solid 1px; */
+    box-shadow: inset 0px 0px 10px 0px rgba(53, 53, 53, 0.9);
+    width: 1000px;
+    height: 120px;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: -60px;
+    background-color: white;
+}
+
+.Profile-Section3-Button>button {
+    /* border-radius: 0; */
+    width: 125px;
+    height: 120px;
+    gap: 0;
+    font-size: 70px;
+    /* background-color: white; */
+    color: rgb(158, 158, 158);
+    border-left: 0.4px solid rgb(177, 177, 177);
+
+}
+
+.Profile-Section3-Button>button:hover {
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+.Profile-Section3-Button>button:focus{
+    background-color: rgb(155, 155, 155);
+    color: white;
+    box-shadow: inset 0px 0px 10px 0px rgba(53, 53, 53, 0.9);
+
+}
+
+.one {
+    border: 1px solid transparent;
+    border-radius: 1rem 0 0 1rem;
+    /* font-size: 24px; */
+    background-color: transparent;
+}
+
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+    border-radius: 0;
+    /* font-size: 24px; */
+    /* text-decoration: none; */
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.eight {
+    border-radius: 0 1rem 1rem 0;
+    border: 1px solid transparent;
+    /* font-size: 24px; */
+    background-color: transparent;
+}
+
+.Profile-Section3-Slides {
+    display: flex;
+    margin-top: 160px;
+    left: 10%;
+    /* width: 100%; */
+    position: absolute;
+    gap: 90px;
+}
+
+.Profile-Section3-Slides-Digits {
+    font-size: 180px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Profile-Section3-Sildes-Content {
+    min-width: 300px;
+    max-width: 1500px;
+    border-left: 2px solid rgb(180, 180, 180);
+    height: 350px;
+    /* width: 600px; */
+    padding-left: 60px;
+}
+
+.Profile-Section3-Sildes-Heading {
+    display: flex;
+    gap: 50px;
+}
+
+.Profile-Section3-Sildes-Heading>img {
+    width: 140px;
+    height: 120px;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.Profile-Section3-Sildes-Heading1 {
+    font-size: 50px;
+    font-weight: 650;
+    letter-spacing: -2px;
+    line-height: 40px;
+    border-bottom: 2px solid rgb(151, 151, 151);
+}
+
+.Profile-Section3-Sildes-Heading1>span {
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Profile-Section3-Slide-Button>button {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 18px;
+    width: 190px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(44, 145, 21);
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 10px 0px rgb(43, 63, 38);
+}
+
+.Profile-Section3-Sildes-Para{
+    min-width: 320px;
+    max-width: 1500px;
+    max-width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(105, 105, 105);
+    margin-left: 10px;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 1300px){
+    .Profile-Section3-Slides {
+        left: 5%;
+        gap: 50px;
+    }
+
+    .Profile-Section3-Sildes-Para{
+        font-size: 23px;
+    }
+    
+    .Profile-Section3-Slides-Digits {
+        font-size: 150px;
+    }
+
+    .Profile-Section3-Sildes-Heading {
+        gap: 40px;
+    }
+
+    .Profile-Section3-Sildes-Heading>img {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .Profile-Section3-Sildes-Heading1 {
+        font-size: 40px;
+        font-weight: 620;
+    }
+    
+    .Profile-Section3-Sildes-Heading1>span {
+        font-size: 25px;
+    }
+
+    .Profile-Section3-Button {
+        width: 800px;
+        height: 100px;
+        margin-top: -50px;
+    }
+    
+    .Profile-Section3-Button>button {
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .Profile-Section3-Button {
+        width: 650px;
+        height: 90px;
+        margin-top: -40px;
+    }
+    
+    .Profile-Section3-Button>button {
+        width: 81.25px;
+        height: 90px;
+        font-size: 50px;
+        
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .Profile-Section3-Sildes-Para{
+        font-size: 20px;
+    }
+    
+    .Profile-Section3-Slides-Digits {
+        font-size: 120px;
+    }
+
+    .Profile-Section3-Sildes-Heading {
+        gap: 20px;
+    }
+
+    .Profile-Section3-Sildes-Heading>img {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .Profile-Section3-Sildes-Heading1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .Profile-Section3-Sildes-Heading1>span {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .Profile-Section3-Button {
+        width: 500px;
+        height: 80px;
+        margin-top: -30px;
+    }
+    
+    .Profile-Section3-Button>button {
+        width: 62.5px;
+        height: 80px;
+        font-size: 40px;
+        
+    }
+
+    .Profile-Section3-Slides {
+        gap: 50px;
+    }
+    
+    .Profile-Section3-Sildes-Content {
+        height: 400px;
+        padding-left: 40px;
+    }
+
+    .Profile-Section3-Slide-Button>button {
+        position: absolute;
+        left: 0;
+        margin-right: 0%;
+        margin-left: 30%;
+        margin-top: 3%;
+        font-size: 17px;
+        width: 180px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .Profile-Section3-Sildes-Content {
+        height: 450px;
+        padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .Profile-Section3-Slides-Digits {
+        display: none;
+    }
+    
+    .Profile-Section3-Sildes-Content {
+        border-left: none;
+ 
+    }
+
+    .Profile-Section3-Slide-Button>button {
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .Profile-Section3-Button {
+        width: 400px;
+        height: 60px;
+        margin-top: -20px;
+    }
+    
+    .Profile-Section3-Button>button {
+        width: 50px;
+        height: 60px;
+        font-size: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .Profile-Section3-Button {
+        width: 350px;
+        height: 50px;
+        margin-top: -10px;
+    }
+    
+    .Profile-Section3-Button>button {
+        width: 43.75px;
+        height: 50px;
+        font-size: 20px;
+        
+    }
+
+    .Profile-Section3-Slides {
+        margin-top: 100px;
+        left: 2%;
+    }
+
+    .Profile-Section3-Sildes-Para{
+        font-size: 15px;
+        /* width: 300px; */
+        margin-left: 4px;
+        margin-right: 2%;
+    }
+
+    .Profile-Section3-Sildes-Heading {
+        gap: 10px;
+    }
+
+    .Profile-Section3-Sildes-Heading>img {
+        width: 80px;
+        height: 60px;
+    }
+    
+    .Profile-Section3-Sildes-Heading1 {
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+    
+    .Profile-Section3-Sildes-Heading1>span {
+        font-size: 18px;
+    }
+    
+    .Profile-Section3-Sildes-Content {
+        width: 300px;
+        /* padding-left: 60px; */
+    }
+}
+
+
+@media only screen and (max-width: 370px){
+    .Profile-Section3-Sildes-Content {
+        /* width: 300px; */
+        padding-left: 0px;
+    }
+    .Profile-Section3-Sildes-Para{
+        font-size: 15px;
+        /* width: 300px; */
+        margin-left: 0px;
+        margin-right: 0%;
+    }
+}

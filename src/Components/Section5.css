@@ -1,0 +1,202 @@
+
+.Section5-Main{
+    width: 100%;
+}
+.Profile-Slider{
+    overflow: hidden;
+    
+    /* width: 100%; */
+}
+
+.Profile-Section5-Top {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.Profile-Section5-Top-Heading{
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    color: black;
+    padding-left: 90px;
+    margin-top: 80px;
+    line-height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Profile-Section5-Top-Button{
+    position: absolute;
+    right: 0%;
+    margin: 80px;
+    margin-top: 100px;
+}
+
+.Profile-Section5-Top-Button>button{
+    border-radius: 1rem;
+    background-color: rgb(49, 148, 27);
+    border: 0px solid rgb(12, 14, 12);
+    box-shadow: 0px 0px 30px 0px rgb(43, 63, 38);
+}
+
+.button5-image{
+    margin-right: 4px;
+    margin-left: 10px;
+    width: 12px;
+    float: right;
+    margin-top: 5px;
+}
+
+.Profile-Section5-Main{
+    display: grid;
+    position: center;
+    margin-top: 5%;
+}
+
+
+
+.Profile-Section5-Main2{
+    display: grid;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+
+.Profile-Section5-Main-Child>img{
+    margin-bottom: 30px;
+    padding-right: 35px;
+    border-right: 3px solid gray;
+}
+
+.Profile-Section5-Main-Child>img{
+    width: 140px;
+}
+
+.Slider-5-1{
+    display:none;
+}
+
+@media only screen and (max-width: 1500px){
+
+    .Profile-Section5-Top {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 90px;
+    }
+
+    .Profile-Section5-Top-Heading{
+        font-size: 5vw;
+        font-weight: 500;
+        letter-spacing: -3px;
+        color: black;
+        padding-left: 90px;
+        margin-top: 80px;
+        line-height: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .Profile-Section5-Top-Heading{
+        font-size: 5vw;
+        letter-spacing: 0px;
+        padding-left: 5%;
+        line-height: 6vw;
+    }
+
+    .Profile-Section5-Top-Button>button{
+        font-size: 2.5vw;
+    }
+    
+    .button5-image{
+        margin-right: 4px;
+        margin-left: 10px;
+        width: 1.5vw;
+        float: right;
+        margin-top: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .Profile-Section5-Main-Child>img{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .Profile-Section5-Top {
+        display: grid;
+        margin-left: 30px;
+        margin-top: 90px;
+    }
+    .Profile-Section5-Main-Child>img{
+        width: 100px;
+    }
+    .Profile-Section5-Top-Button{
+        position: relative;
+        /* right: 0%; */
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .Profile-Section5-Top-Heading{
+        font-size: 30px;
+    }
+
+    .Profile-Section5-Top-Button>button{
+        font-size: 15px;
+    }
+
+    .button5-image{
+        width: 9px;
+    }
+
+    .Profile-Section5-Top-Button{
+        position: relative;
+        /* right: 0%; */
+        margin-left: 30px;
+    }
+
+    .Slider-5-1{
+        display: block;
+    }
+
+    .Slider-5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .Profile-Section5-Top-Heading{
+        font-size: 30px;
+    }
+
+    .Profile-Section5-Top-Button>button{
+        font-size: 15px;
+    }
+
+    .button5-image{
+        width: 9px;
+    }
+
+    .Profile-Section5-Top-Button{
+        position: relative;
+        /* right: 0%; */
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .Profile-Section5-Main-Child>img{
+        width: 80px;
+    }
+
+    .Profile-Section5-Main-Child>img{
+        margin-bottom: 30px;
+        padding-right: 20px;
+        border-right: 3px solid gray;
+    }
+}
